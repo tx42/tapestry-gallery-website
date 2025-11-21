@@ -108,6 +108,7 @@ p{
 
 #info-screen h2{
     margin-bottom: 20px; 
+    font-weight: normal;
 }
 
 #info-screen .text-n-img{
@@ -119,7 +120,7 @@ p{
 #info-screen img{
     align-self: center;
     max-width: 100%;
-    max-height: 60vh;
+    max-height: 70vh;
 }
 
 #info-screen{
@@ -147,7 +148,12 @@ p{
 }
 
 .title{
-    font-size: 90px;
+    font-size: 150px;
+}
+
+.description{
+    font-size: 40px;
+    font-weight: normal;
 }
 
 .centered{
