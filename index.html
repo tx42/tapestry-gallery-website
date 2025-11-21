@@ -1,52 +1,219 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Tapestry Gallery</title>
     <!-- Imports -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     <script src="view-manager.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="canvas-container">
-        <div id="canvas">
-            <img id="canvas-img" src="assets/Tapestry.jpg">
-            <div id="interest-points-container">
-                <div class="interest-point" style="top: 50%; left: 0%" data-zoom="3">
-                    <div class="point-marker"></div>
-                    <div class="interest-point-info">
-                        <h1>blah blah blah blah blah</h1>
-                    </div>
+      <div id="canvas">
+        <img id="canvas-img" src="assets/Tapestry.jpg" />
+        <div id="interest-points-container">
+          <div class="interest-point" style="top: 42%; left: 23%" data-zoom="3">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>Tapestry</h1>
+              <h2>(c. 1500, Flanders)</h2>
+              <div class="text-n-img">
+                <p>
+                  The possible fragment of bigger tapestry is of style called
+                  millefleurs. Popular in 15th and 16th centuries, they depicted
+                  small animals and birds among the flowers.
+                </p>
+                <div class="centered">
+                  <img src="assets/tapestry_img.jpg" />
                 </div>
-                <div class="interest-point" style="top: 80%; left: 30%">
-                    <div class="point-marker"></div>
-                    <div class="interest-point-info">
-                        <h1>blah blah blah blah blah</h1>
-                    </div>
-                </div>
-                <div class="interest-point" style="top: 50%; left: 80%" data-zoom="5">
-                    <div class="point-marker"></div>
-                    <div class="interest-point-info">
-                        <h1>blah blah blah blah blah</h1>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="interest-point" style="top: 67%; left: 23%" data-zoom="1.7">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>Susanna and the Elders</h1>
+              <h2>(c. 1500, Tournai)</h2>
+              <div class="text-n-img">
+                <p>
+                  The biblical story of slander against Susana appears in Book
+                  of Daniel. There Elders, failing to press heroine into
+                  submission, arrested her with the claim that she was
+                  committing adultery.However, Daniel managed to uncover their
+                  scheme. Tapestries with this subject were popular from the
+                  late Middle Ages onwards.
+                </p>
+                <div class="centered">
+                  <img src="assets/sussana.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 40%; left: 52%" data-zoom="2">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>La Main Chaude</h1>
+              <h2>(1500-1515, Flanders)</h2>
+              <div class="text-n-img">
+                <p>
+                  The tapestry depicts shepherds and shepherdess playing
+                  children’s game ‘la main chaude’, known as ‘hot cockles’ in
+                  English. One participant hides their face in somebody’s lap
+                  with one hand behind his back. The other players slap the hand
+                  making it ‘hot’ while the hand’s owner has to guess who is
+                  slapping.
+                </p>
+                <div class="centered">
+                  <img src="assets/lamain.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 30%; left: 12%" data-zoom="2">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>The Three Fates</h1>
+              <h2>(early 16th century, Netherlands)</h2>
+              <div class="text-n-img">
+                <p>
+                  The fragment of a larger tapestry depict poem I Trionfi by
+                  Italian poet Petrarch. It describes his allegorical vision. In
+                  mythology Fates controlled the span of human life; Clotho is a
+                  spinner, Lachesis was the drawer of the lots, and Atropos
+                  represented the inevitable end to life.
+                </p>
+                <div class="centered">
+                  <img src="assets/fates.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 26%; left: 93%" data-zoom="1.5">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1 class="flipped">The Triumph of Eternity over Time</h1>
+              <h2>(c. 1510-1520, Tournai)</h2>
+              <div class="text-n-img">
+                <p>
+                  The fragment of a larger tapestry is based on a poem I Trionfi
+                  by Italian poet Petrarch. The panel includes the back wheel of
+                  the chariot of Eternity, and crushed beneath it are two female
+                  figures, Lachesis and Clotho, two of the Fates
+                </p>
+                <div class="centered">
+                  <img src="assets/triumph.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 67%; left: 10%" data-zoom="1.7">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>Rustic sports tapestry</h1>
+              <h2>(1500-1515, Flanders)</h2>
+              <div class="text-n-img">
+                <p>
+                  This tapestry depicts different forms of hunting: with
+                  greyhounds, with a falcon and with a crossbow. It also
+                  includes a sly pun on the idea of the hunt, showing men
+                  pursuing women with sexual intent.
+                </p>
+                <div class="centered">
+                  <img src="assets/sports.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 25%; left: 35%" data-zoom="1.5">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>Falconry</h1>
+              <h2>(1430’s, Arras/Low Countries)</h2>
+              <p class="small-margin">
+                The foreground is filled with tiny trees, bushes and flowers,
+                rocky caves for bears and streams with water-fowl. In this
+                setting the huntsmen and their prey crowd across the tapestry
+                in two great tiers subtly linked by intermediate figures,
+                which lead the eye from group to group. 'Falconry' is the
+                tapestry which focuses on a single hunt.
+              </p>
+              <div class="centered">
+                <img src="assets/falconry.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 77%; left: 58%" data-zoom="1.2">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1 class="flipped">The Devonshire Hunting Tapestries</h1>
+              <h2>(1430’s, Arras/Low Countries)</h2>
+              <p class="small-margin">
+                The otter hunt shown in this tapestry is rather gruesome.
+                Otters were hunted not to eat but for their skins and because
+                they ate the fish that were needed for the table. Swan meat
+                was, however, highly desirable and here boys are seen robbing
+                a swan’s nest. At one time, swans could be owned only by the
+                royal family but as they gradually escaped into the wild they
+                became fair game for other people, although theoretically they
+                could only be hunted by licence. A ferocious bear hunt is seen
+                on the right with oriental figures wearing turbans.
+              </p>
+              <div class="centered">
+                <img src="assets/devonshire2.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 40%; left: 77%" data-zoom="2.7">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>The Devonshire Hunting Tapestries</h1>
+              <h2>(1440-1450)</h2>
+              <p class="small-margin">
+                  By the 15th century all types of hunting had their own rules.
+                  Deer hunting was known as the sport of kings and confined to
+                  the courts and other favoured individuals. In this tapestry
+                  the main scenes show various parts of the deer hunt,
+                  including, at the centre bottom, a dead deer being cut up and
+                  the meat distributed. This was carried out as a set ritual
+                  with specific cuts of the meat being given to particular
+                  huntsmen and favoured dogs.
+              </p>
+              <div class="centered">
+                  <img src="assets/devonshire.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="interest-point" style="top: 46%; left: 37%" data-zoom="2.2">
+            <div class="point-marker"></div>
+            <div class="interest-point-info">
+              <h1>Esther and Ahasuerus</h1>
+              <h2>(c. 1510-1520, Brussels)</h2>
+              <div class="text-n-img">
+                <p>
+                  This tapestry depicts a scene from the Old Testament story of
+                  Esther and Ahasuerus. The subject was a favourite theme in
+                  tapestries, particularly in the15th and 16th century.
+                </p>
+                <div class="centered">
+                  <img src="assets/esther.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <div class="info-screen-container hidden invisible">
+      <div class="info-grid">
         <div id="view-frame"></div>
-        <div id="info-screen">
-            <h1>Amogus!</h1>
-            <p>
-                We are writing something in regards to our lord and saviour, amogus amougsovich.
-                He was the best amogus that ever lived to be frank.
-            </p>
-        </div>
+        <div id="info-screen"></div>
+      </div>
     </div>
     <div id="title-screen">
-        <h1 class="title">Tapestry Gallery</h1>
-        <h2 class="description">A really nice image created by Leska :3</h2>
+      <h1 class="title">Tapestry Gallery</h1>
+      <h2 class="description">A really nice image created by Leska :3</h2>
     </div>
-</body>
+  </body>
 </html>
+

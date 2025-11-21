@@ -182,6 +182,7 @@ function initialisePOICallbacks(){
 
 window.addEventListener("resize", () => {
 	resizeCanvas();
+	panWithCursor(window.innerWidth/2, window.innerHeight/2);
 });
 
 window.addEventListener("load", () => {
@@ -196,8 +197,6 @@ window.addEventListener("load", () => {
 	});
 	
 	info_screen_cont.addEventListener("click", (event) => {
-		console.log(event);
-		console.log("released!");
 		hidePointInfo();
 	});
 
