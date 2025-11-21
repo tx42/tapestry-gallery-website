@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tapestry Gallery</title>
+    <!-- Imports -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="view-manager.js"></script>
+</head>
+<body>
+    <div id="canvas-container">
+        <div id="canvas">
+            <img id="canvas-img" src="assets/Tapestry.jpg">
+            <div id="interest-points-container">
+                <div class="interest-point" style="top: 50%; left: 0%" data-zoom="3">
+                    <div class="point-marker"></div>
+                    <div class="interest-point-info">
+                        <h1>blah blah blah blah blah</h1>
+                    </div>
+                </div>
+                <div class="interest-point" style="top: 80%; left: 30%">
+                    <div class="point-marker"></div>
+                    <div class="interest-point-info">
+                        <h1>blah blah blah blah blah</h1>
+                    </div>
+                </div>
+                <div class="interest-point" style="top: 50%; left: 80%" data-zoom="5">
+                    <div class="point-marker"></div>
+                    <div class="interest-point-info">
+                        <h1>blah blah blah blah blah</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-screen-container hidden invisible">
+        <div id="view-frame"></div>
+        <div id="info-screen">
+            <h1>Amogus!</h1>
+            <p>
+                We are writing something in regards to our lord and saviour, amogus amougsovich.
+                He was the best amogus that ever lived to be frank.
+            </p>
+        </div>
+    </div>
+    <div id="title-screen">
+        <h1 class="title">Tapestry Gallery</h1>
+        <h2 class="description">A really nice image created by Leska :3</h2>
+    </div>
+</body>
+</html>
